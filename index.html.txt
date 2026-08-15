@@ -1,0 +1,135 @@
+Here is the complete code with the text translated to English, using your animated background setup (where you can just put your image file name or link):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlopoz - Coming Soon</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Background image with subtle zoom animation */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('YOUR_IMAGE_OR_GIF_HERE'); /* Put your image file name or link here */
+            background-size: cover;
+            background-position: center;
+            animation: moveBackground 20s linear infinite alternate;
+            z-index: -1;
+        }
+
+        @keyframes moveBackground {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            background: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 14px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            margin-bottom: 20px;
+            color: #cccccc;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            color: #dddddd;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn {
+            background: transparent;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+            color: #0b0b0b;
+            border-color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+        <div class="card">
+            <div class="badge">Coming Soon</div>
+            <h1>We're building something new 🚀</h1>
+            <p>Our website will be available soon. Follow us on our platforms to stay updated.</p>
+            
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="btn">GitHub</a>
+                <a href="https://discord.com" target="_blank" class="btn">Discord</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+GitHub
+GitHub · Change is constant. GitHub keeps you ahead.
+
+Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that ad...
